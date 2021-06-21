@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>projeto portfolio</title>
+</head>
+<body>
+   <header class="px=4" style="background-color: rgb(235, 221, 188); font-size: xx-large; text-align: center;">Projeto Javascrip</header>
+    <form name="frmTeste" method="post" action="#" onsubmit="return validaForm(this);">
+        <p style="font-weight: bold;">Validação de formulário</p>
+        <p>Nome: <input type="text" name="nome" id="nome" /></p>
+        <p>Email: <input type="text" name="email" id="email" /></p>
+        <p>Sexo:
+          <label><input type="radio" name="sexo" value="M" id="masc" /> Masculino</label>
+         <label><input type="radio" name="sexo" value="F" id="masc" /> Feminino</label>
+        </p>
+        <p>Profissão
+          <select name="cargo">
+            <option value="">Selecione o cargo</option>
+            <option value="programador">Programador</option>
+            <option value="Medico">Designer</option>
+            <option value="Manutencao">Tester</option>
+            <option value="todas">Todas</option>
+         </select>
+        </p><label><input type="submit" name="sbt" value="Enviar" /></label></p>
+    </form>
+</body>
+</html>
